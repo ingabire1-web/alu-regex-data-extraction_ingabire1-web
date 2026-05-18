@@ -1,11 +1,138 @@
 {
-  "emails": [],
-  "urls": [],
-  "phone_numbers": [],
-  "credit_cards": [],
+  "emails": [
+    {
+      "email": "admissions@alueducation.com",
+      "is_alu": true,
+      "alu_type": "official"
+    },
+    {
+      "email": "john.kariuki@gmail.com",
+      "is_alu": false,
+      "alu_type": null
+    },
+    {
+      "email": "support@alueducation.com",
+      "is_alu": true,
+      "alu_type": "official"
+    },
+    {
+      "email": "it.helpdesk@si.alueducation.com",
+      "is_alu": true,
+      "alu_type": "si"
+    },
+    {
+      "email": "admissions@alueducation.com",
+      "is_alu": true,
+      "alu_type": "official"
+    },
+    {
+      "email": "billing@alueducation.com",
+      "is_alu": true,
+      "alu_type": "official"
+    },
+    {
+      "email": "amara.diallo@yahoo.com",
+      "is_alu": false,
+      "alu_type": null
+    },
+    {
+      "email": "network@alumni.alueducation.com",
+      "is_alu": true,
+      "alu_type": "alumni"
+    },
+    {
+      "email": "pascal.mugisha@alumni.alueducation.com",
+      "is_alu": true,
+      "alu_type": "alumni"
+    },
+    {
+      "email": "linda.osei@outlook.com",
+      "is_alu": false,
+      "alu_type": null
+    },
+    {
+      "email": "events@alueducation.com",
+      "is_alu": true,
+      "alu_type": "official"
+    },
+    {
+      "email": "pascal.mugisha@alumni.alueducation.com",
+      "is_alu": true,
+      "alu_type": "alumni"
+    },
+    {
+      "email": "linda.osei@outlook.com",
+      "is_alu": false,
+      "alu_type": null
+    },
+    {
+      "email": "events@alueducation.com",
+      "is_alu": true,
+      "alu_type": "official"
+    },
+    {
+      "email": "faculty@si.alueducation.com",
+      "is_alu": true,
+      "alu_type": "si"
+    },
+    {
+      "email": "dev.team@si.alueducation.com",
+      "is_alu": true,
+      "alu_type": "si"
+    },
+    {
+      "email": "faculty@si.alueducation.com",
+      "is_alu": true,
+      "alu_type": "si"
+    },
+    {
+      "email": "hacker_input@evil.com",
+      "is_alu": false,
+      "alu_type": null
+    },
+    {
+      "email": "kwame.asante@gmail.com",
+      "is_alu": false,
+      "alu_type": null
+    }
+  ],
+  "urls": [
+    "https://portal.alueducation.com/onboarding?ref=2024&lang=en",
+    "https://www.alueducation.com",
+    "https://billing.alueducation.com/invoices?student_id=AM20241",
+    "https://events.alueducation.com/summit2024?promo=ALUMNI10",
+    "https://gitlab.si.alueducation.com/projects/2024/submissions",
+    "http://api.si.alueducation.com/docs/v2?format=json&token=preview",
+    "https://support.alueducation.com/ticket?id=4424&status=open"
+  ],
+  "phone_numbers": [
+    "+1 800 555 0199",
+    "123-456-7890",
+    "+1 202 555 0147",
+    "123.456.7890"
+  ],
+  "credit_cards": [
+    "************1111",
+    "************0004",
+    "***********0005",
+    "************4242"
+  ],
   "security_notes": {
-    "lines_skipped_as_malicious": [],
-    "total_lines_rejected": 0,
+    "lines_skipped_as_malicious": [
+      "--- Thread: New Student Onboarding ---",
+      "--- Thread: Payment Confirmation ---",
+      "--- Thread: Alumni Network Update ---",
+      "--- Thread: SI Project Submissions ---",
+      "--- Thread: Support Tickets (Raw API Dump) ---",
+      "User input received: <script>alert('XSS Attack!');</script>",
+      "URL submitted: javascript:void(document.cookie)",
+      "Injected payload: SELECT * FROM users; DROP TABLE users;--",
+      "Template string: ${process.env.SECRET_KEY}",
+      "Null byte attempt: file%00.txt",
+      "Encoded injection: %3Cscript%3Ealert(1)%3C/script%3E",
+      "Event handler: <img src=x onload=alert(1)>"
+    ],
+    "total_lines_rejected": 12,
     "masking_policy": "Credit card numbers masked — last 4 digits only",
     "sanitisation_policy": "Each line checked independently for injection patterns"
   }
