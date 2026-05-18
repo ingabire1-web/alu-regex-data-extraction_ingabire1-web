@@ -1,0 +1,12 @@
+{
+  "emails": [],
+  "urls": [],
+  "phone_numbers": [],
+  "credit_cards": [],
+  "security_notes": {
+    "lines_skipped_as_malicious": [],
+    "total_lines_rejected": 0,
+    "masking_policy": "Credit card numbers masked — last 4 digits only",
+    "sanitisation_policy": "Each line checked independently for injection patterns"
+  }
+}

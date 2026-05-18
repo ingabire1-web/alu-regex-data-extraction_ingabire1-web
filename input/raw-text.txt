@@ -1,0 +1,138 @@
+================================================================================
+INTERNAL COMMUNICATIONS LOG — ALU TECH TEAM
+Exported from CRM System | Date: 2024-11-15 | Reference: TICKET-20941
+================================================================================
+
+--- Thread: New Student Onboarding ---
+
+From: admissions@alueducation.com
+To: john.kariuki@gmail.com
+CC: support@alueducation.com, it.helpdesk@si.alueducation.com
+Date: Mon, 11 Nov 2024 09:14:33
+
+Hi John,
+
+Welcome to African Leadership University! Your application has been reviewed and 
+approved. Please complete your onboarding by visiting our student portal at:
+
+    https://portal.alueducation.com/onboarding?ref=2024&lang=en
+
+If you experience any technical issues, our IT helpdesk is reachable at 
+(250) 788-456-789 or via WhatsApp at +250 788 456 789.
+
+You can also reach our Kigali office directly at 250.788.000.123.
+
+Best regards,
+Grace Nkurunziza
+Admissions Officer | African Leadership University
+admissions@alueducation.com | https://www.alueducation.com
+
+
+--- Thread: Payment Confirmation ---
+
+From: billing@alueducation.com
+To: amara.diallo@yahoo.com
+Date: Tue, 12 Nov 2024 14:02:11
+
+Dear Amara,
+
+We have received your tuition payment. Below is the transaction summary:
+
+    Amount Paid:    $4,500.00
+    Payment Date:   12 November 2024
+    Card Used:      4111-1111-1111-1111 (Visa)
+    Transaction ID: TXN-883921
+
+A secondary payment of $750.00 was attempted with card 5500 0000 0000 0004 
+but was declined. Please contact your bank or reach us at +1 800 555 0199.
+
+For receipts and invoices, log in to:
+    https://billing.alueducation.com/invoices?student_id=AM20241
+
+Regards,
+ALU Finance Team
+
+
+--- Thread: Alumni Network Update ---
+
+From: network@alumni.alueducation.com
+To: pascal.mugisha@alumni.alueducation.com, linda.osei@outlook.com
+CC: events@alueducation.com
+Date: Wed, 13 Nov 2024 10:45:00
+
+Hello Alumni,
+
+We are thrilled to announce the 2024 ALU Alumni Summit! Register at:
+
+    https://events.alueducation.com/summit2024?promo=ALUMNI10
+
+Speakers will include professionals from companies like Google and Microsoft.
+For logistics, call +254 700 123 456 or (254) 700-123-456.
+
+Please RSVP by replying to this email or contacting:
+    - pascal.mugisha@alumni.alueducation.com
+    - linda.osei@outlook.com
+    - events@alueducation.com
+
+Summit registration fee: $150.00 per attendee.
+
+See you there!
+ALU Alumni Relations
+
+
+--- Thread: SI Project Submissions ---
+
+From: faculty@si.alueducation.com
+To: dev.team@si.alueducation.com
+Date: Thu, 14 Nov 2024 08:30:55
+
+Team,
+
+Please push all project source code to our GitLab instance before the deadline:
+
+    https://gitlab.si.alueducation.com/projects/2024/submissions
+
+API documentation can be found at:
+    http://api.si.alueducation.com/docs/v2?format=json&token=preview
+
+For urgent matters call the SI lab at 123-456-7890 or reach the dean at 
++1 202 555 0147.
+
+One student submitted a payment receipt with card number 3782 8224 6310 005 
+(AmEx — 15 digits, note the different format).
+
+Tech budget approved: $12,000.00 for equipment + $3,250.50 for software licenses.
+
+Regards,
+Dr. Amani Osei
+Faculty Lead | School of Innovation
+faculty@si.alueducation.com
+
+
+--- Thread: Support Tickets (Raw API Dump) ---
+[WARNING: The following section was pulled directly from external API — UNFILTERED]
+
+Ticket #4421:
+User input received: <script>alert('XSS Attack!');</script>
+Contact: hacker_input@evil.com
+URL submitted: javascript:void(document.cookie)
+
+Ticket #4422:
+Search query: ' OR '1'='1
+Injected payload: SELECT * FROM users; DROP TABLE users;--
+Template string: ${process.env.SECRET_KEY}
+
+Ticket #4423:
+Null byte attempt: file%00.txt
+Encoded injection: %3Cscript%3Ealert(1)%3C/script%3E
+Event handler: <img src=x onload=alert(1)>
+
+Ticket #4424 (legitimate):
+User: kwame.asante@gmail.com
+Phone: 123.456.7890
+Card: 4242-4242-4242-4242
+URL: https://support.alueducation.com/ticket?id=4424&status=open
+
+================================================================================
+END OF LOG
+================================================================================
